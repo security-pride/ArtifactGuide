@@ -1,0 +1,36 @@
+inputs:
+  artifact_repo: /path/to/artifact
+  paper_pdf: /path/to/paper.pdf
+  artifact_url: null
+  official_badge: null
+  manual_paper_targets: null
+
+budget:
+  max_wall_time_hours: 24
+  command_silent_timeout_minutes: 180
+  disk_limit_gb: 1000
+  allow_network: true
+  allow_gpu: true
+  allow_paid_api: true
+  allow_external_services: true
+  max_intervention_level: I4
+  allow_repo_modification: true
+
+policy:
+  llm_model: deepseek-v4-flash
+  rubric:
+    name: artifact_evaluation_rubric
+    version: "2026-05"
+    profile: icse2027_main
+  resource_policy_source: rubric_default
+  reviewer_mode: full_execution_allowed
+  repo_modification:
+    allow_persistent_repo_repair: false
+    allow_bounded_external_base_image_repair: true
+    require_explicit_persistent_repo_repair: true
+    prefer_runtime_repair_first: true
+
+report:
+  primary_format: markdown
+  emit_json: true
+  include_evidence_appendix: true

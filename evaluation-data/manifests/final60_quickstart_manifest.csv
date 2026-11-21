@@ -1,0 +1,2 @@
+suite_id,paper_title,artifact_access_link,paper_source_link,paper_source_type,notes
+S36,Magika: AI-Powered Content-Type Detection,https://github.com/google/magika,https://securityresearch.google/magika/2025_icse_magika.pdf,pdf,Public GitHub artifact with a stable public paper PDF and a straightforward CLI-oriented repository layout.

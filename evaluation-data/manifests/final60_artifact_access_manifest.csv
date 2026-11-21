@@ -1,0 +1,61 @@
+suite_id,conference,year,host_type,artifact_access_link,paper_title,paper_link
+S01,ASE,2024,github,https://github.com/duyali2000/VIM-PT,A Joint Learning Model with Variational Interaction for Multilingual Program Translation,https://doi.org/10.1145/3691620.3695553
+S02,ASE,2024,github,https://github.com/kupl/NPETestArtifact,Effective Unit Test Generation for Java Null Pointer Exceptions,https://doi.org/10.1145/3691620.3695484
+S03,ASE,2024,github,https://github.com/tasteking/PonziSleuth-ASE24,Semantic Sleuth: Identifying Ponzi Contracts via Large Language Models,https://doi.org/10.1145/3691620.3695055
+S04,ASE,2024,github,https://github.com/LogIntelligence/LogBatcher,Demonstration-Free: Towards More Practical Log Parsing with Large Language Models,https://doi.org/10.1145/3691620.3694994
+S05,ASE,2024,zenodo,https://doi.org/10.5281/zenodo.13364690,AXA: Cross-Language Analysis through Integration of Single-Language Analyses,https://doi.org/10.1145/3691620.3696193
+S06,ASE,2024,github,https://github.com/Goblin-Ecosystem/goblinUpdater,Balancing the Quality and Cost of Updating Dependencies,https://doi.org/10.1145/3691620.3695595
+S07,ASE,2024,github,https://github.com/renruirui1234/SLIM,SLIM: A Scalable and Interpretable Light-weight Fault Localization Algorithm for Imbalanced Data in Microservice,https://doi.org/10.1145/3691620.3694984
+S08,ASE,2024,github,https://github.com/CGCL-codes/PathEval,Towards Understanding the Effectiveness of Large Language Models on Directed Test Input Generation,https://doi.org/10.1145/3691620.3695513
+S09,ASE,2024,osf,https://osf.io/e3jy6/?view_only=bc67e33bebd3435abf5537d56767401d,Test-Driven Development and LLM-based Code Generation,https://doi.org/10.1145/3691620.3695527
+S10,ASE,2024,osf,https://osf.io/7486g/?view_only=39b6cbb0,Promise and Peril of Collaborative Code Generation Models: Balancing Effectiveness and Memorization,https://doi.org/10.1145/3691620.3695021
+S11,ASE,2024,zenodo,https://doi.org/10.5281/zenodo.12748885,In-Simulation Testing of Deep Learning Vision Models in Autonomous Robotic Manipulators,https://doi.org/10.1145/3691620.3695281
+S12,ASE,2024,zenodo,https://doi.org/10.5281/zenodo.13370009,Program Synthesis Meets Visual What-Comes-Next Puzzles,https://doi.org/10.1145/3691620.3695015
+S13,ASE,2024,zenodo,https://zenodo.org/records/11513334,AACEGEN: Attention Guided Adversarial Code Example Generation for Deep Code Models,https://doi.org/10.1145/3691620.3695500
+S14,FSE,2025,github,https://github.com/HexHive/MendelFuzz-Artifact,MendelFuzz: The Return of the Deterministic Stage,https://doi.org/10.1145/3715713
+S15,FSE,2025,github,https://github.com/plasma-umass/ChatDBG,ChatDBG: Augmenting Debugging with Large Language Models,https://doi.org/10.1145/3729355
+S16,FSE,2025,github,https://github.com/suxnju/disco,DiSCo: Towards Decompiling EVM Bytecode to Source Code using Large Language Models,https://doi.org/10.1145/3729373
+S17,FSE,2025,zenodo,https://doi.org/10.5281/zenodo.14695509,Understanding and Characterizing Mock Assertions in Unit Tests,https://doi.org/10.1145/3715741
+S18,FSE,2025,github,https://github.com/yuvrajvirk/CalibrationLLMsCodeSummaries/,Calibration of Large Language Models on Code Summarization,https://doi.org/10.1145/3729400
+S19,FSE,2025,github,https://github.com/chenzhenpeng18/FSE25-ZeroSum,Software Fairness Dilemma: Is Bias Mitigation a Zero-Sum Game?,https://doi.org/10.1145/3729350
+S20,FSE,2025,github,https://github.com/sepine/WasmHint,Recasting Type Hints from WebAssembly Contracts,https://doi.org/10.1145/3729388
+S21,FSE,2025,github,https://github.com/Pro-Alert/ProAlert,Alert Summarization for Online Service Systems by Validating Propagation Paths of Faults,https://doi.org/10.1145/3729367
+S22,ICSE,2025,github,https://github.com/FudanSELab/LISP,LLM Based Input Space Partitioning Testing for Library APIs,https://doi.org/10.1109/icse55347.2025.00153
+S23,ICSE,2025,github,https://github.com/NetSP-KAIST/forky/releases/tag/v0.0.1-alpha.1,Fork State-Aware Differential Fuzzing for Blockchain Consensus Implementations,https://doi.org/10.1109/icse55347.2025.00085
+S24,ICSE,2025,github,https://github.com/dvaave/BSan,BSan: A Powerful Identifier-Based Hardware-Independent Memory Error Detector for COTS Binaries,https://doi.org/10.1109/icse55347.2025.00020
+S25,ICSE,2025,github,https://github.com/niMgnoeSeeL/ChaoMI,Accounting for Missing Events in Statistical Information Leakage Analysis,https://doi.org/10.1109/icse55347.2025.00018
+S26,ICSE,2025,github,https://github.com/cmu-soda/FairSense/,FairSense: Long-Term Fairness Analysis of ML-Enabled Systems,https://doi.org/10.1109/icse55347.2025.00159
+S27,ICSE,2025,github,https://github.com/OctavioGalland/afllive,Invivo Fuzzing by Amplifying Actual Executions,https://doi.org/10.1109/icse55347.2025.00172
+S28,ICSE,2025,github,https://github.com/Genius-Choi/TIVER-public,T IVER: Identifying Adaptive Versions of C/C++ Third-Party Open-Source Components Using a Code Clustering Technique,https://doi.org/10.1109/icse55347.2025.00188
+S29,ICSE,2025,github,https://github.com/ideas-labo/ndp,Faster Configuration Performance Bug Testing with Neural Dual-Level Prioritization,https://doi.org/10.1109/icse55347.2025.00201
+S30,ICSE,2025,github,https://github.com/ideas-labo/cp-mod,The Same Only Different: On Information Modality for Configuration Performance Analysis,https://doi.org/10.1109/icse55347.2025.00212
+S31,ICSE,2025,github,https://github.com/xlab-uiuc/ciri,Large Language Models as Configuration Validators,https://doi.org/10.1109/icse55347.2025.00017
+S32,ICSE,2025,github,https://github.com/mooselab/Discover-Data-Quality-With-RIOLU,"Automated, Unsupervised, and Auto-Parameterized Inference of Data Patterns and Anomaly Detection",https://doi.org/10.1109/icse55347.2025.00078
+S33,ICSE,2025,github,https://github.com/sedoubleblinder/orca.git,Planning a Large Language Model for Static Detection of Runtime Errors in Code Snippets,https://doi.org/10.1109/icse55347.2025.00102
+S34,ICSE,2025,github,https://github.com/SEED-VT/Web-Ads-Accessibility,Accessibility Issues in Ad-Driven Web Applications,https://doi.org/10.1109/icse55347.2025.00171
+S35,ICSE,2025,github,https://github.com/se-doubleblind/intellismt,Large Language Models for Safe Minimization,https://doi.org/10.1109/icse55347.2025.00203
+S36,ICSE,2025,github,https://github.com/google/magika,MAGIKA: AI-Powered Content-Type Detection,https://doi.org/10.1109/icse55347.2025.00158
+S37,ICSE,2025,zenodo,https://zenodo.org/doi/10.5281/zenodo.13184028,An Exploratory Study of ML Sketches and Visual Code Assistants,https://doi.org/10.1109/icse55347.2025.00124
+S38,ICSE,2025,zenodo,https://doi.org/10.5281/zenodo.14249024,On the Mistaken Assumption of Interchangeable Deep Reinforcement Learning Implementations,https://doi.org/10.1109/icse55347.2025.00222
+S39,ICSE,2025,zenodo,https://doi.org/10.5281/zenodo.14753911,Metamorphic-Based Many-Objective Distillation of LLMs for Code-Related Tasks,https://doi.org/10.1109/icse55347.2025.00230
+S40,ICSE,2025,zenodo,https://doi.org/10.5281/zenodo.12727039,A Study of Undefined Behavior Across Foreign Function Boundaries in Rust Libraries,https://doi.org/10.1109/icse55347.2025.00167
+S41,ICSE,2025,github,https://github.com/ycshao12/Hydrangea,Are LLMs Correctly Integrated into Software Systems?,https://doi.org/10.1109/icse55347.2025.00204
+S42,ICSE,2025,github,https://github.com/nabsonp/ICSE-2025,A Catalog of Micro Frontends Anti-Patterns,https://doi.org/10.1109/icse55347.2025.00079
+S43,ICSE,2025,github,https://github.com/OSUSecLab/ProxyEx,An Empirical Study of Proxy Contracts at the Ethereum Ecosystem Scale,https://doi.org/10.1109/icse55347.2025.00083
+S44,ICSE,2025,github,https://github.com/SigmaJahan/DEFault-DNN-Debugging,Improved Detection and Diagnosis of Faults in Deep Neural Networks Using Hierarchical and Explainable Classification,https://doi.org/10.1109/icse55347.2025.00224
+S45,ICSE,2025,github,https://github.com/aquasecurity/trivy,On Prescription or Off Prescription? An Empirical Study of Community-Prescribed Security Configurations for Kubernetes,https://doi.org/10.1109/icse55347.2025.00170
+S46,ICSE,2025,github,https://github.com/jinan789/ConsCS,ConsCS: Effective and Efficient Verification of Circom Circuits,https://doi.org/10.1109/icse55347.2025.00200
+S47,ICSE,2025,github,https://github.com/SophrosyneX/Fuzzing-empirical-study,Tumbling Down the Rabbit Hole: How do Assisting Exploration Strategies Facilitate Grey-Box Fuzzing?,https://doi.org/10.1109/icse55347.2025.00044
+S48,ISSTA,2025,github,https://github.com/ZJU-SEC/TypeCopilot,Type-Alias Analysis Enabling LLVM IR with Accurate Types,https://doi.org/10.1145/3728974
+S49,ISSTA,2025,github,https://github.com/sola-st/ExecutionAgent/,"You Name It, I Run It An LLM Agent to Execute Tests of Arbitrary Projects",https://doi.org/10.1145/3728922
+S50,ISSTA,2025,github,https://github.com/ADStesting-test/FADE,Testing the Fault-Tolerance of Multi-sensor Fusion Perception in Autonomous Driving Systems,https://doi.org/10.1145/3728910
+S51,ISSTA,2025,github,https://github.com/QGrain/SyzGPT,Unlocking Low Frequency Syscalls in Kernel Fuzzing with Dependency-Based RAG,https://doi.org/10.1145/3728913
+S52,ISSTA,2025,google_drive,https://drive.google.com/file/d/1mUYfZ7uFV1F5ZQFDQ1CFDNasL2NTdYzu/view?usp=drive_link,Fairness Mediator Neutralize Stereotype Associations to Mitigate Bias in Large Language Models,https://doi.org/10.1145/3728881
+S53,ISSTA,2025,github,https://github.com/FLZeng/Freesia,Freesia Verifying Correctness of TEE Communication with Concurrent Separation Logic,https://doi.org/10.1145/3728967
+S54,ISSTA,2025,github,https://github.com/ParsifalXu/MPChecker,Identifying Multi-parameter Constraint Errors in Python Data Science Library API Documentation,https://doi.org/10.1145/3728945
+S55,ISSTA,2025,zenodo,https://zenodo.org/doi/10.5281/zenodo.15450480,Adding Spatial Memory Safety to EDK II through Checked C (Experience Paper),https://doi.org/10.1145/3728929
+S56,ISSTA,2025,github,https://github.com/labri-progress/cidiff,What Happened in This Pipeline Diffing Build Logs with CiDiff,https://doi.org/10.1145/3728966
+S57,ISSTA,2025,github,https://github.com/code-philia/GUIPilot,GUIPilot A Consistency-Based Mobile GUI Testing Approach for Detecting Application-Specific Bugs,https://doi.org/10.1145/3728909
+S58,ISSTA,2025,github,https://github.com/huanli-00/Safe4U-replication.git,Safe4U Identifying Unsound Safe Encapsulations of Unsafe Calls in Rust using LLMs,https://doi.org/10.1145/3728890
+S59,ISSTA,2025,github,https://github.com/kaist-hacking/CPMMX,Automated Attack Synthesis for Constant Product Market Makers,https://doi.org/10.1145/3728872
+S60,ISSTA,2025,github,https://github.com/Dirtyboy1029/MALTUTOR,Understanding Model Weaknesses A Path to Strengthening DNN-Based Android Malware Detection,https://doi.org/10.1145/3728884

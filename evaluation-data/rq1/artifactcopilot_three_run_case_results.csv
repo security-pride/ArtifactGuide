@@ -1,0 +1,61 @@
+suite_id,gold_badge,gold_rank,R1_non_audit_badge,R1_non_audit_match,R1_non_audit_rank_distance,R1_non_audit_functional_binary_match,R2_audit_badge,R2_audit_match,R2_audit_rank_distance,R2_audit_functional_binary_match,R3_audit_badge,R3_audit_match,R3_audit_rank_distance,R3_audit_functional_binary_match,R4_audit_badge,R4_audit_match,R4_audit_rank_distance,R4_audit_functional_binary_match,R1_R4_majority_badge,R1_R4_majority_match,R1_R4_majority_rank_distance
+S01,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S02,available + functional + reusable,3,available,false,2,false,available,false,2,false,available,false,2,false,available,false,2,false,available,false,2
+S03,available + functional + reusable,3,available,false,2,false,available,false,2,false,available,false,2,false,available + functional + reusable,true,0,true,available,false,2
+S04,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S05,available + functional + reusable,3,no available,false,3,false,available + functional,false,1,true,available + functional,false,1,true,available + functional,false,1,true,available + functional,false,1
+S06,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S07,available + functional,2,available,false,1,false,available,false,1,false,available + functional,true,0,true,available + functional,true,0,true,available,false,1
+S08,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S09,available + functional,2,available + functional,true,0,true,available + functional,true,0,true,available,false,1,false,available,false,1,false,available,false,1
+S10,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S11,no available,0,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0
+S12,available + functional,2,available,false,1,false,available,false,1,false,available + functional,true,0,true,available + functional,true,0,true,available,false,1
+S13,no available,0,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0
+S14,available + functional + reusable,3,available,false,2,false,available + functional + reusable,true,0,true,available,false,2,false,available,false,2,false,available,false,2
+S15,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S16,no available,0,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0
+S17,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available,false,2,false,available,false,2,false,available,false,2
+S18,available,1,available + functional,false,1,false,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S19,available + functional,2,available + functional,true,0,true,available + functional,true,0,true,available + functional + reusable,false,1,true,available + functional,true,0,true,available + functional,true,0
+S20,no available,0,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0
+S21,no available,0,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0,true,no available,true,0
+S22,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S23,available + functional,2,available,false,1,false,available,false,1,false,available + functional,true,0,true,available,false,1,false,available,false,1
+S24,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S25,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S26,available + functional + reusable,3,available + functional,false,1,true,available + functional + reusable,true,0,true,available,false,2,false,available,false,2,false,available,false,2
+S27,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S28,available + functional,2,available + functional + reusable,false,1,true,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0
+S29,available + functional + reusable,3,available,false,2,false,available + functional,false,1,true,available + functional,false,1,true,available + functional + reusable,true,0,true,available + functional,false,1
+S30,available + functional + reusable,3,available,false,2,false,available,false,2,false,available,false,2,false,available,false,2,false,available,false,2
+S31,available + functional,2,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0,true,available,false,1,false,available + functional,true,0
+S32,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S33,available + functional,2,available + functional + reusable,false,1,true,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0
+S34,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S35,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional,false,1,true,available + functional,false,1,true,available + functional + reusable,true,0,true,available + functional,false,1
+S36,available + functional + reusable,3,available + functional + reusable,true,0,true,available,false,2,false,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S37,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional,false,1,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S38,available + functional,2,available,false,1,false,no available,false,2,false,available,false,1,false,no available,false,2,false,no available,false,2
+S39,available + functional,2,available,false,1,false,available + functional,true,0,true,available + functional + reusable,false,1,true,available,false,1,false,available,false,1
+S40,available + functional + reusable,3,available + functional,false,1,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional,false,1,true,available + functional,false,1
+S41,available + functional + reusable,3,available,false,2,false,available + functional + reusable,true,0,true,available + functional,false,1,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S42,available + functional,2,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0
+S43,available + functional,2,available + functional,true,0,true,available + functional,true,0,true,available + functional,true,0,true,available,false,1,false,available + functional,true,0
+S44,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional,false,1,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S45,no available,0,available,false,1,true,available,false,1,true,available,false,1,true,available + functional,false,2,false,available,false,1
+S46,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional,false,1,true,available + functional,false,1,true,available + functional + reusable,true,0,true,available + functional,false,1
+S47,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S48,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S49,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S50,available,1,available,true,0,true,no available,false,1,true,available,true,0,true,available,true,0,true,available,true,0
+S51,available + functional,2,available,false,1,false,available + functional,true,0,true,available + functional + reusable,false,1,true,available + functional + reusable,false,1,true,available + functional + reusable,false,1
+S52,available,1,available,true,0,true,no available,false,1,true,available,true,0,true,available,true,0,true,available,true,0
+S53,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S54,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available + functional,false,1,true,available + functional + reusable,true,0
+S55,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S56,available + functional + reusable,3,available + functional + reusable,true,0,true,available + functional + reusable,true,0,true,available,false,2,false,available + functional + reusable,true,0,true,available + functional + reusable,true,0
+S57,available + functional + reusable,3,available + functional + reusable,true,0,true,available,false,2,false,available + functional + reusable,true,0,true,available,false,2,false,available,false,2
+S58,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S59,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0
+S60,available,1,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0,true,available,true,0

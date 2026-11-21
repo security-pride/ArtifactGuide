@@ -1,0 +1,61 @@
+suite_id,conference,year,host_type,candidate_role,official_badge_norm,adjudicated_available_gate,adjudicated_D1,adjudicated_D2,adjudicated_D3,adjudicated_D4,adjudicated_D5,adjudicated_evidence_tier,adjudicated_highest_intervention,adjudicated_final_badge,adjudicated_confidence
+S01,ASE,2024.0,github,negative_boundary,available+reusable,pass,WA,WR,WR,R,R,E1,I3,available,medium
+S02,ASE,2024.0,github,positive,available+reusable,pass,A,WA,WA,WA,WA,E2,I2,available + functional + reusable,medium
+S03,ASE,2024.0,github,negative_boundary,available+reusable,pass,A,WA,WA,WA,WA,E2,I3,available + functional + reusable,medium
+S04,ASE,2024.0,github,negative_boundary,available+reusable,pass,A,WA,WR,WR,R,E1,I3,available,medium
+S05,ASE,2024.0,zenodo,negative_boundary,available+reusable,pass,A,A,WA,WA,WA,E2,I1,available + functional + reusable,high
+S06,ASE,2024.0,github,negative_boundary,available+reusable,pass,WA,WA,WR,WR,R,E1,I2,available,medium
+S07,ASE,2024.0,github,positive,no_badge,pass,WR,WA,WA,WA,R,E2,I1,available + functional,medium
+S08,ASE,2024.0,github,positive,no_badge,pass,A,A,WA,WA,WA,E2,I1,available + functional + reusable,medium-high
+S09,ASE,2024.0,osf,negative,no_badge,pass,WA,WA,WA,WA,R,E2,I2,available + functional,medium-low
+S10,ASE,2024.0,osf,negative,no_badge,pass,WA,WA,WR,WR,R,E1,I2,available,medium
+S11,ASE,2024.0,zenodo,negative,no_badge,fail,R,R,R,R,R,E1,I1,no available,medium
+S12,ASE,2024.0,zenodo,positive,no_badge,pass,A,WA,WA,WA,WR,E2,I2,available + functional,medium
+S13,ASE,2024.0,zenodo,negative,no_badge,fail,R,R,R,R,R,E1,I1,no available,medium
+S14,FSE,2025.0,github,positive,available+reusable,pass,WA,WA,WA,WA,WA,E2,I3,available + functional + reusable,medium
+S15,FSE,2025.0,github,positive,available+reusable,pass,A,WA,WR,R,R,E1,I2,available,medium
+S16,FSE,2025.0,github,negative,no_badge,fail,R,R,R,R,R,E0,I0,no available,high
+S17,FSE,2025.0,zenodo,positive,available,pass,WA,WA,WA,WA,WA,E2,I1,available + functional + reusable,medium
+S18,FSE,2025.0,github,positive,no_badge,pass,WA,WR,WA,WA,WR,E2,I2,available,medium
+S19,FSE,2025.0,github,positive,no_badge,pass,WA,WA,WA,WA,R,E2,I1,available + functional,medium
+S20,FSE,2025.0,github,negative,no_badge,fail,R,R,R,R,R,E0,I1,no available,high
+S21,FSE,2025.0,github,negative,no_badge,fail,R,R,R,R,R,E1,I1,no available,high
+S22,ICSE,2025.0,github,positive,available+functional,pass,A,WA,R,WA,R,E1,I1,available,medium
+S23,ICSE,2025.0,github,negative_boundary,available+functional,pass,A,A,A,WA,WR,E2,I2,available + functional,medium
+S24,ICSE,2025.0,github,negative_boundary,available+functional,pass,WR,WR,R,WR,R,E1,I1,available,medium
+S25,ICSE,2025.0,github,positive,available+functional,pass,A,WA,WA,WA,WA,E3,I1,available + functional + reusable,medium
+S26,ICSE,2025.0,github,positive,available+functional+reusable,pass,A,WA,WA,WA,WA,E3,I1,available + functional + reusable,medium
+S27,ICSE,2025.0,github,positive,available+functional+reusable,pass,A,WA,WR,R,R,E1,I2,available,medium
+S28,ICSE,2025.0,github,positive,available+functional+reusable,pass,A,A,WA,WA,WR,E2,I1,available + functional,medium
+S29,ICSE,2025.0,github,positive,available+functional+reusable,pass,WA,WA,WA,WA,WA,E3,I1,available + functional + reusable,medium
+S30,ICSE,2025.0,github,positive,available+functional+reusable,pass,WA,WA,WA,WA,WA,E2,I0,available + functional + reusable,medium
+S31,ICSE,2025.0,github,positive,available+functional+reusable,pass,A,WA,WA,WA,R,E3,I1,available + functional,medium
+S32,ICSE,2025.0,github,positive,available+functional+reusable,pass,WA,WA,WA,WA,WA,E3,I2,available + functional + reusable,medium
+S33,ICSE,2025.0,github,positive,available+functional+reusable,pass,A,WA,WA,WA,R,E3,I0,available + functional,medium
+S34,ICSE,2025.0,github,negative_boundary,available+functional+reusable,pass,A,WR,R,WR,R,E1,I1,available,medium
+S35,ICSE,2025.0,github,positive,available+functional+reusable,pass,A,WA,WA,WA,WA,E3,I1,available + functional + reusable,medium-high
+S36,ICSE,2025.0,github,positive,available+functional+reusable,pass,A,A,WA,WA,WA,E3,I1,available + functional + reusable,medium-high
+S37,ICSE,2025.0,zenodo,positive,available+functional+reusable,pass,A,A,WA,WA,WA,E3,I1,available + functional + reusable,medium-high
+S38,ICSE,2025.0,zenodo,negative_boundary,available+functional+reusable,pass,A,WA,WA,WA,R,E3,I3,available + functional,medium
+S39,ICSE,2025.0,zenodo,positive,available+functional+reusable,pass,WA,A,WA,WA,R,E2,I2,available + functional,medium
+S40,ICSE,2025.0,zenodo,negative_boundary,available+functional+reusable,pass,A,A,A,WA,WA,E3,I0,available + functional + reusable,medium-high
+S41,ICSE,2025.0,github,positive,available,pass,A,A,WA,WA,WA,E3,I1,available + functional + reusable,medium-high
+S42,ICSE,2025.0,github,positive,available,pass,WR,WA,A,A,WR,E2,I1,available + functional,medium
+S43,ICSE,2025.0,github,positive,available,pass,A,A,WA,WA,WA,E2,I2,available + functional,medium
+S44,ICSE,2025.0,anonymous_4open,negative,available,pass,A,A,WA,WA,WA,E2,I0,available + functional + reusable,medium
+S45,ICSE,2025.0,web,negative,available,fail,R,R,R,R,R,E0,I0,no available,high
+S46,ICSE,2025.0,github,positive,no_badge,pass,A,A,WA,WA,WA,E3,I1,available + functional + reusable,high
+S47,ICSE,2025.0,github,positive,no_badge,pass,A,WA,WR,WR,R,E1,I2,available,medium
+S48,ISSTA,2025.0,github,negative_boundary,available+functional,pass,A,WR,R,WR,R,E1,I2,available,medium
+S49,ISSTA,2025.0,github,positive,available+functional,pass,A,WA,WR,WR,R,E1,I1,available,medium
+S50,ISSTA,2025.0,github,negative_boundary,available,pass,A,WR,WR,R,R,E0,I0,available,medium
+S51,ISSTA,2025.0,github,positive,available,pass,A,WA,WA,WA,WR,E2,I2,available + functional,medium
+S52,ISSTA,2025.0,web,negative,no_badge,pass,WR,WR,WR,R,R,E1,I2,available,medium
+S53,ISSTA,2025.0,github,negative_boundary,available+functional,pass,A,WR,WR,WR,R,E2,I2,available,medium
+S54,ISSTA,2025.0,github,positive_functional_or_reusable,available+functional,pass,A,A,WA,WA,WA,E2,I2,available + functional + reusable,medium
+S55,ISSTA,2025.0,zenodo,negative_boundary,available,pass,WR,WA,R,WR,R,E1,I1,available,medium
+S56,ISSTA,2025.0,github,negative_boundary,available,pass,A,WA,WA,WA,WA,E2,I1,available + functional + reusable,medium
+S57,ISSTA,2025.0,github,negative_boundary,no_badge,pass,A,A,WA,WA,WA,E2,I2,available + functional + reusable,medium
+S58,ISSTA,2025.0,github,negative_boundary,no_badge,pass,A,WA,R,WR,R,E2,I1,available,medium
+S59,ISSTA,2025.0,github,negative_boundary,available,pass,WA,WR,R,WA,R,E1,I1,available,medium
+S60,ISSTA,2025.0,github,negative_boundary,no_badge,pass,WA,WR,WR,WR,R,E1,I1,available,medium

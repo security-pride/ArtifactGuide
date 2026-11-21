@@ -1,0 +1,614 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "final_scoring_packet.schema.json",
+  "title": "ArtifactCopilot Final Scoring Packet",
+  "type": "object",
+  "required": [
+    "schema",
+    "status",
+    "rubric_source",
+    "available_gate",
+    "dimension_checklists",
+    "dimension_scores",
+    "evidence_tier",
+    "e2_sufficiency_check",
+    "route_arbitration_check",
+    "resource_boundary_assessment",
+    "rubric_evidence_adjudication",
+    "highest_intervention",
+    "functional_decision",
+    "reusable_decision",
+    "d5_transfer_sufficiency_check",
+    "badge_recommendation",
+    "confidence",
+    "limitations",
+    "author_clarification_requests",
+    "human_review_sensitive_points",
+    "evidence_refs"
+  ],
+  "properties": {
+    "schema": {
+      "const": "final_scoring_packet_v1"
+    },
+    "status": {
+      "const": "complete"
+    },
+    "rubric_source": {
+      "type": "object",
+      "required": ["name", "refs"],
+      "properties": {
+        "name": {"type": "string"},
+        "refs": {"$ref": "#/$defs/stringList"}
+      },
+      "additionalProperties": true
+    },
+    "available_gate": {
+      "type": "object",
+      "required": ["holds", "reason", "conditions"],
+      "properties": {
+        "holds": {"type": "boolean"},
+        "reason": {"type": "string"},
+        "conditions": {
+          "type": "array",
+          "minItems": 3,
+          "items": {"$ref": "#/$defs/condition"}
+        }
+      },
+      "additionalProperties": true
+    },
+    "dimension_checklists": {
+      "type": "object",
+      "required": ["D1", "D2", "D3", "D4", "D5"],
+      "properties": {
+        "D1": {"$ref": "#/$defs/checklist"},
+        "D2": {"$ref": "#/$defs/checklist"},
+        "D3": {"$ref": "#/$defs/checklist"},
+        "D4": {"$ref": "#/$defs/checklist"},
+        "D5": {"$ref": "#/$defs/checklist"}
+      },
+      "additionalProperties": false
+    },
+    "dimension_scores": {
+      "type": "object",
+      "required": ["D1", "D2", "D3", "D4", "D5"],
+      "properties": {
+        "D1": {"$ref": "#/$defs/dimensionScore"},
+        "D2": {"$ref": "#/$defs/dimensionScore"},
+        "D3": {"$ref": "#/$defs/dimensionScore"},
+        "D4": {"$ref": "#/$defs/dimensionScore"},
+        "D5": {"$ref": "#/$defs/dimensionScore"}
+      },
+      "additionalProperties": false
+    },
+    "evidence_tier": {
+      "type": "object",
+      "required": ["tier", "reason", "refs"],
+      "properties": {
+        "tier": {"enum": ["E0", "E1", "E2", "E3"]},
+        "reason": {"type": "string"},
+        "refs": {"$ref": "#/$defs/stringList"}
+      },
+      "additionalProperties": true
+    },
+    "e2_sufficiency_check": {
+      "type": "object",
+      "required": [
+        "workflow_kind",
+        "output_provenance",
+        "representative_workflow_assessment",
+        "upstream_generation_attempted",
+        "resource_boundary_position",
+        "artifact_specific_logic_exercised",
+        "paper_facing_output",
+        "generic_dependency_or_example",
+        "component_only",
+        "functional_representativeness_blocker",
+        "sufficiency_reason",
+        "score_or_badge_effect"
+      ],
+      "properties": {
+        "workflow_kind": {
+          "enum": [
+            "full_reproduction",
+            "near_full_reproduction",
+            "reduced_representative",
+            "documented_demo",
+            "artifact_evaluation_path",
+            "post_processing_only",
+            "result_validation_only",
+            "dataset_loading_or_aggregation",
+            "dry_run_or_plan",
+            "component_probe",
+            "no_runnable_workflow",
+            "unknown"
+          ]
+        },
+        "output_provenance": {
+          "enum": [
+            "newly_generated_by_reviewer",
+            "loaded_from_deposited_files",
+            "validated_precomputed_output",
+            "derived_from_existing_results",
+            "dry_run_no_artifact_output",
+            "no_valid_output",
+            "unknown"
+          ]
+        },
+        "representative_workflow_assessment": {"type": "object"},
+        "upstream_generation_attempted": {
+          "enum": [
+            "yes",
+            "no_resource_or_time_gated",
+            "no_not_documented",
+            "no_not_applicable_dataset_package",
+            "no_unattempted",
+            "unknown"
+          ]
+        },
+        "resource_boundary_position": {
+          "enum": [
+            "before_artifact_logic",
+            "after_bounded_artifact_logic",
+            "after_valid_bounded_output",
+            "not_resource_gated",
+            "unknown"
+          ]
+        },
+        "artifact_specific_logic_exercised": {"enum": ["yes", "limited", "no", "unknown"]},
+        "paper_facing_output": {"enum": ["yes", "limited", "no", "unknown"]},
+        "generic_dependency_or_example": {"type": "boolean"},
+        "component_only": {"type": "boolean"},
+        "functional_representativeness_blocker": {"type": "string"},
+        "sufficiency_reason": {"type": "string"},
+        "score_or_badge_effect": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "route_arbitration_check": {
+      "type": "object",
+      "required": [
+        "d3_selected_route_decisiveness",
+        "d3_alternative_routes_considered",
+        "d3_score_effect",
+        "d5_selected_transfer_decisiveness",
+        "d5_alternative_transfers_considered",
+        "d5_score_effect",
+        "human_review_sensitive"
+      ],
+      "properties": {
+        "d3_selected_route_decisiveness": {
+          "enum": [
+            "successful_representative",
+            "decisive_failure",
+            "not_decisive_alternative_exists",
+            "supporting_only",
+            "unclear"
+          ]
+        },
+        "d3_alternative_routes_considered": {"type": "string"},
+        "d3_score_effect": {"type": "string"},
+        "d5_selected_transfer_decisiveness": {
+          "enum": [
+            "successful_transfer",
+            "decisive_failure",
+            "not_decisive_alternative_exists",
+            "supporting_only",
+            "unclear"
+          ]
+        },
+        "d5_alternative_transfers_considered": {"type": "string"},
+        "d5_score_effect": {"type": "string"},
+        "human_review_sensitive": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "resource_boundary_assessment": {
+      "type": "object",
+      "required": [
+        "boundary_type",
+        "declared_by_artifact",
+        "position",
+        "artifact_logic_reached",
+        "paper_facing_output_before_boundary",
+        "blocks_all_reviewer_realistic_routes",
+        "alternative_route_available",
+        "alternative_evidence_exists",
+        "badge_effect",
+        "reason",
+        "refs"
+      ],
+      "properties": {
+        "boundary_type": {
+          "enum": [
+            "api_gated",
+            "hardware_gated",
+            "data_gated",
+            "network_gated",
+            "toolchain_gated",
+            "time_gated",
+            "host_policy_gated",
+            "resource_gated",
+            "platform_gated",
+            "none",
+            "unknown"
+          ]
+        },
+        "declared_by_artifact": {"enum": ["yes", "no", "unknown"]},
+        "position": {
+          "enum": [
+            "before_artifact_logic",
+            "after_bounded_artifact_logic",
+            "after_valid_bounded_output",
+            "not_resource_gated",
+            "unknown"
+          ]
+        },
+        "artifact_logic_reached": {"enum": ["yes", "limited", "no", "unknown"]},
+        "paper_facing_output_before_boundary": {"enum": ["yes", "limited", "no", "unknown"]},
+        "blocks_all_reviewer_realistic_routes": {"enum": ["yes", "no", "unknown"]},
+        "alternative_route_available": {"enum": ["yes", "no", "unknown"]},
+        "alternative_evidence_exists": {"enum": ["yes", "no", "unknown"]},
+        "badge_effect": {"type": "string"},
+        "reason": {"type": "string"},
+        "refs": {"$ref": "#/$defs/stringList"}
+      },
+      "additionalProperties": true
+    },
+    "rubric_evidence_adjudication": {
+      "type": "object",
+      "required": [
+        "strongest_functional_evidence",
+        "functional_sufficiency",
+        "strongest_reusable_evidence",
+        "reusable_sufficiency",
+        "final_alignment_check"
+      ],
+      "properties": {
+        "strongest_functional_evidence": {
+          "type": "object",
+          "required": [
+            "evidence_type",
+            "route_or_surface",
+            "representative_strength",
+            "paper_mapping_strength",
+            "resource_or_api_boundary",
+            "refs"
+          ],
+          "properties": {
+            "evidence_type": {
+              "enum": [
+                "primary_workflow_execution",
+                "bounded_representative_workflow",
+                "result_package_validation",
+                "dataset_package_validation",
+                "component_api_execution",
+                "static_or_failed_probe",
+                "no_valid_evidence",
+                "unknown"
+              ]
+            },
+            "route_or_surface": {"type": "string"},
+            "representative_strength": {
+              "enum": [
+                "artifact_level",
+                "bounded_artifact_level",
+                "paper_facing_result_package",
+                "component_or_helper",
+                "static_or_failed",
+                "none",
+                "unknown"
+              ]
+            },
+            "paper_mapping_strength": {"enum": ["direct", "limited", "indirect", "none", "unknown"]},
+            "resource_or_api_boundary": {
+              "enum": [
+                "none",
+                "before_artifact_logic",
+                "after_bounded_artifact_logic",
+                "after_valid_bounded_output",
+                "unresolved",
+                "unknown"
+              ]
+            },
+            "refs": {"$ref": "#/$defs/stringList"}
+          },
+          "additionalProperties": true
+        },
+        "functional_sufficiency": {"$ref": "#/$defs/sufficiencyDecision"},
+        "strongest_reusable_evidence": {
+          "type": "object",
+          "required": [
+            "evidence_type",
+            "reuse_surface",
+            "transfer_strength",
+            "transfer_novelty",
+            "relationship_to_d3",
+            "refs"
+          ],
+          "properties": {
+            "evidence_type": {
+              "enum": [
+                "artifact_surface_transfer",
+                "documented_cli_or_api_transfer",
+                "dataset_or_result_package_reanalysis",
+                "component_or_helper_transfer",
+                "same_workflow_variant",
+                "failed_or_no_transfer",
+                "unknown"
+              ]
+            },
+            "reuse_surface": {"type": "string"},
+            "transfer_strength": {
+              "enum": [
+                "artifact_surface",
+                "documented_cli_or_api",
+                "dataset_or_result_package",
+                "component_or_helper",
+                "same_workflow_variant",
+                "failed_or_none",
+                "unknown"
+              ]
+            },
+            "transfer_novelty": {
+              "enum": [
+                "new_input",
+                "new_configuration",
+                "new_project",
+                "new_scenario",
+                "independent_api_or_cli_call",
+                "new_summary_over_existing_files",
+                "same_as_d3_variant",
+                "no_transfer",
+                "unknown"
+              ]
+            },
+            "relationship_to_d3": {
+              "enum": [
+                "independent_of_d3",
+                "same_workflow_with_new_input",
+                "post_processing_of_d3_outputs",
+                "data_reanalysis_of_deposited_files",
+                "unclear",
+                "unknown"
+              ]
+            },
+            "refs": {"$ref": "#/$defs/stringList"}
+          },
+          "additionalProperties": true
+        },
+        "reusable_sufficiency": {"$ref": "#/$defs/sufficiencyDecision"},
+        "final_alignment_check": {
+          "type": "object",
+          "required": ["badge_matches_adjudication", "stage_final_consistency", "reason"],
+          "properties": {
+            "badge_matches_adjudication": {"type": "boolean"},
+            "stage_final_consistency": {
+              "enum": ["consistent", "justified_override", "unresolved_boundary", "unknown"]
+            },
+            "reason": {"type": "string"}
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "highest_intervention": {
+      "type": "object",
+      "required": ["level", "summary", "affected_stages", "depends_on_i4", "refs"],
+      "properties": {
+        "level": {"enum": ["I0", "I1", "I2", "I3", "I4"]},
+        "summary": {"type": "string"},
+        "affected_stages": {"$ref": "#/$defs/stringList"},
+        "depends_on_i4": {"type": "boolean"},
+        "refs": {"$ref": "#/$defs/stringList"}
+      },
+      "additionalProperties": true
+    },
+    "functional_decision": {"$ref": "#/$defs/badgeDecision"},
+    "reusable_decision": {"$ref": "#/$defs/badgeDecision"},
+    "d5_transfer_sufficiency_check": {
+      "type": "object",
+      "required": [
+        "reuse_target_level",
+        "transfer_novelty",
+        "relationship_to_d3",
+        "artifact_level_sufficiency",
+        "transfer_failure_interpretation",
+        "sufficiency_reason",
+        "score_or_badge_effect"
+      ],
+      "properties": {
+        "reuse_target_level": {
+          "enum": [
+            "artifact_level",
+            "pipeline_level",
+            "documented_cli_or_api",
+            "module_or_function_level",
+            "utility_or_helper_level",
+            "component_level",
+            "dataset_package_level",
+            "result_package_level",
+            "packaged_example_level",
+            "unknown"
+          ]
+        },
+        "transfer_novelty": {
+          "enum": [
+            "new_input",
+            "new_configuration",
+            "new_project",
+            "new_scenario",
+            "independent_api_or_cli_call",
+            "new_summary_over_existing_files",
+            "same_as_d3_variant",
+            "no_transfer",
+            "unknown"
+          ]
+        },
+        "relationship_to_d3": {
+          "enum": [
+            "independent_of_d3",
+            "same_workflow_with_new_input",
+            "post_processing_of_d3_outputs",
+            "data_reanalysis_of_deposited_files",
+            "unclear",
+            "unknown"
+          ]
+        },
+        "artifact_level_sufficiency": {"enum": ["sufficient", "supporting_only", "insufficient", "unknown"]},
+        "transfer_failure_interpretation": {
+          "enum": [
+            "route_or_config_choice",
+            "input_contract_mismatch",
+            "evaluator_wrapper_error",
+            "fail_reviewer_harness",
+            "missing_dependency",
+            "resource_gated",
+            "resource_or_api_gated",
+            "fail_artifact_interface",
+            "artifact_behavior_failure",
+            "not_attempted_prerequisite_missing",
+            "not_applicable_success",
+            "no_core_reuse_surface",
+            "unknown"
+          ]
+        },
+        "core_reuse_validation_result": {
+          "enum": [
+            "successful_core_reuse",
+            "resource_gated",
+            "fail_artifact_interface",
+            "fail_reviewer_harness",
+            "not_attempted_prerequisite_missing",
+            "no_core_reuse_surface",
+            "unknown"
+          ]
+        },
+        "reviewer_created_validation": {"type": "object"},
+        "sufficiency_reason": {"type": "string"},
+        "score_or_badge_effect": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "badge_recommendation": {
+      "type": "object",
+      "required": ["badge", "reason", "available", "functional", "reusable"],
+      "properties": {
+        "badge": {
+          "enum": [
+            "no badge",
+            "available",
+            "available + functional",
+            "available + functional + reusable"
+          ]
+        },
+        "reason": {"type": "string"},
+        "available": {"type": "boolean"},
+        "functional": {"type": "boolean"},
+        "reusable": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    },
+    "derived_badge": {
+      "type": "object",
+      "properties": {
+        "schema": {"const": "derived_badge_v1"},
+        "available": {"type": "boolean"},
+        "functional": {"type": "boolean"},
+        "reusable": {"type": "boolean"},
+        "badge": {
+          "enum": [
+            "no badge",
+            "available",
+            "available + functional",
+            "available + functional + reusable"
+          ]
+        },
+        "failed_predicates": {"type": "object"},
+        "warnings": {"type": "array"}
+      },
+      "additionalProperties": true
+    },
+    "confidence": {
+      "type": "object",
+      "required": ["level", "reason"],
+      "properties": {
+        "level": {"enum": ["low", "medium", "high"]},
+        "reason": {"type": "string"}
+      },
+      "additionalProperties": true
+    },
+    "limitations": {"type": "array"},
+    "author_clarification_requests": {"type": "array"},
+    "human_review_sensitive_points": {"type": "array"},
+    "evidence_refs": {"$ref": "#/$defs/stringList"}
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "condition": {
+      "type": "object",
+      "required": ["condition", "satisfied", "evidence", "refs"],
+      "properties": {
+        "condition": {"type": "string"},
+        "satisfied": {"type": "boolean"},
+        "evidence": {"type": "string"},
+        "refs": {"$ref": "#/$defs/stringList"}
+      },
+      "additionalProperties": true
+    },
+    "checklist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item", "judgment", "reason", "refs"],
+        "properties": {
+          "item": {"type": "string"},
+          "judgment": {"enum": ["yes", "no", "not_applicable"]},
+          "reason": {"type": "string"},
+          "refs": {"$ref": "#/$defs/stringList"}
+        },
+        "additionalProperties": true
+      }
+    },
+    "dimensionScore": {
+      "type": "object",
+      "required": ["score", "score_reason", "blocking_or_limiting_items", "evidence_refs"],
+      "properties": {
+        "score": {"enum": ["R", "WR", "WA", "A"]},
+        "score_reason": {"type": "string"},
+        "blocking_or_limiting_items": {"type": "array"},
+        "evidence_refs": {"$ref": "#/$defs/stringList"}
+      },
+      "additionalProperties": true
+    },
+    "badgeDecision": {
+      "type": "object",
+      "required": ["holds", "reason", "conditions"],
+      "properties": {
+        "holds": {"type": "boolean"},
+        "reason": {"type": "string"},
+        "conditions": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/condition"}
+        }
+      },
+      "additionalProperties": true
+    },
+    "sufficiencyDecision": {
+      "type": "object",
+      "required": ["sufficient", "reason", "unmet_conditions", "downgrade_reason", "refs"],
+      "properties": {
+        "sufficient": {"type": "boolean"},
+        "reason": {"type": "string"},
+        "unmet_conditions": {"type": "array", "items": {"type": "string"}},
+        "downgrade_reason": {"type": "string"},
+        "refs": {"$ref": "#/$defs/stringList"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

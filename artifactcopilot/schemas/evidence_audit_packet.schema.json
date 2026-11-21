@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence_audit_packet.schema.json",
+  "title": "ArtifactCopilot Evidence Audit Packet",
+  "type": "object",
+  "required": [
+    "schema",
+    "phase_name",
+    "audit_round",
+    "decision",
+    "audit_summary",
+    "checked_refs",
+    "findings",
+    "resolved_prior_findings",
+    "unresolved_prior_findings",
+    "must_carry_to_final_scoring"
+  ],
+  "properties": {
+    "schema": {"const": "evidence_audit_packet_v1"},
+    "phase_name": {"type": "string"},
+    "audit_round": {"type": "integer", "minimum": 1},
+    "decision": {"enum": ["pass", "revise_required", "pass_with_unresolved_findings"]},
+    "audit_summary": {"type": "string"},
+    "checked_refs": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "findings": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/finding"}
+    },
+    "resolved_prior_findings": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "unresolved_prior_findings": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "must_carry_to_final_scoring": {
+      "type": "array",
+      "items": {"type": "object"}
+    },
+    "audited_at": {"type": "string"}
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "finding": {
+      "type": "object",
+      "required": [
+        "id",
+        "severity",
+        "category",
+        "message",
+        "evidence_gap",
+        "required_action",
+        "refs_checked",
+        "related_stage_refs",
+        "blocking_for_phase_finish"
+      ],
+      "properties": {
+        "id": {"type": "string"},
+        "severity": {"enum": ["blocking", "warning", "info"]},
+        "category": {
+          "enum": [
+            "missing_ref",
+            "contradiction",
+            "route_coverage",
+            "command_interpretation",
+            "representative_boundary",
+            "claim_mapping",
+            "transfer_boundary",
+            "intervention_consistency",
+            "artifact_scope",
+            "stage_protocol"
+          ]
+        },
+        "message": {"type": "string"},
+        "evidence_gap": {"type": "string"},
+        "required_action": {"type": "string"},
+        "refs_checked": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "related_stage_refs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "blocking_for_phase_finish": {"type": "boolean"}
+      },
+      "additionalProperties": true
+    }
+  }
+}

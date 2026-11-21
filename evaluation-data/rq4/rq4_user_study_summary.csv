@@ -1,0 +1,16 @@
+measure,value
+participant_count,8
+artifact_packet_count,8
+review_records,32
+with_report_reviews,16
+no_report_reviews,16
+confidence_mean_no_report,3.63
+confidence_mean_with_report,4.06
+report_evidence_location_mean,4.44
+report_boundary_clarity_mean,4.50
+report_dimension_understandability_mean,4.62
+report_uncertainty_helpfulness_mean,3.75
+report_trust_calibration_mean,4.06
+report_overclaim_risk_mean,1.56
+report_agreement_cases,15/16
+report_changed_decision_cases,0/16

@@ -1,0 +1,11 @@
+layer,item,description,accuracy,precision,recall,f1
+Badge,Exact match,Four-level badge,70.56%,74.05%,72.05%,70.64%
+Gate,Available,GC1-GC3 pass,,98.14%,97.53%,97.82%
+Gate,Functional,>=Available + D2-D4>=WA,,98.55%,70.59%,82.23%
+Gate,Reusable,">=Functional + D1,D5>=WA",,87.44%,49.21%,62.83%
+Dimension,D1,Documentation quality,93.33%,95.30%,96.60%,95.95%
+Dimension,D2,Environment reconstruction,83.33%,86.43%,91.67%,88.97%
+Dimension,D3,Workflow executability,80.56%,86.46%,79.05%,82.59%
+Dimension,D4,Claim support,80.56%,92.22%,74.77%,82.59%
+Dimension,D5,Reusability,77.78%,78.26%,54.55%,64.29%
+Dimension,Mean over D1-D5,Mean binary threshold metrics,83.11%,87.73%,79.33%,82.88%

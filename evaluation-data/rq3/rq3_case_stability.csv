@@ -1,0 +1,301 @@
+system,protocol,suite_id,gold_badge,badge_sequence,all_same,functional_same,rank_range,max_pairwise_rank_distance,unique_count,has_failure_fallback
+ArtifactCopilot,Full System,S01,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S02,available + functional + reusable,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S03,available + functional + reusable,available | available | available + functional + reusable,False,False,2,2,2,False
+ArtifactCopilot,Full System,S04,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S05,available + functional + reusable,available + functional | available + functional | available + functional,True,True,0,0,1,False
+ArtifactCopilot,Full System,S06,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S07,available + functional,available | available + functional | available + functional,False,False,1,1,2,False
+ArtifactCopilot,Full System,S08,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+ArtifactCopilot,Full System,S09,available + functional,available + functional | available | available,False,False,1,1,2,False
+ArtifactCopilot,Full System,S10,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S11,no available,no available | no available | no available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S12,available + functional,available | available + functional | available + functional,False,False,1,1,2,False
+ArtifactCopilot,Full System,S13,no available,no available | no available | no available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S14,available + functional + reusable,available + functional + reusable | available | available,False,False,2,2,2,False
+ArtifactCopilot,Full System,S15,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S16,no available,no available | no available | no available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S17,available + functional + reusable,available + functional + reusable | available | available,False,False,2,2,2,False
+ArtifactCopilot,Full System,S18,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S19,available + functional,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+ArtifactCopilot,Full System,S20,no available,no available | no available | no available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S21,no available,no available | no available | no available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S22,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S23,available + functional,available | available + functional | available,False,False,1,1,2,False
+ArtifactCopilot,Full System,S24,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S25,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+ArtifactCopilot,Full System,S26,available + functional + reusable,available + functional + reusable | available | available,False,False,2,2,2,False
+ArtifactCopilot,Full System,S27,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S28,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+ArtifactCopilot,Full System,S29,available + functional + reusable,available + functional | available + functional | available + functional + reusable,False,True,1,1,2,False
+ArtifactCopilot,Full System,S30,available + functional + reusable,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S31,available + functional,available + functional | available + functional | available,False,False,1,1,2,False
+ArtifactCopilot,Full System,S32,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+ArtifactCopilot,Full System,S33,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+ArtifactCopilot,Full System,S34,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S35,available + functional + reusable,available + functional | available + functional | available + functional + reusable,False,True,1,1,2,False
+ArtifactCopilot,Full System,S36,available + functional + reusable,available | available + functional + reusable | available + functional + reusable,False,False,2,2,2,False
+ArtifactCopilot,Full System,S37,available + functional + reusable,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+ArtifactCopilot,Full System,S38,available + functional,no available | available | no available,False,True,1,1,2,False
+ArtifactCopilot,Full System,S39,available + functional,available + functional | available + functional + reusable | available,False,False,2,2,3,False
+ArtifactCopilot,Full System,S40,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+ArtifactCopilot,Full System,S41,available + functional + reusable,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+ArtifactCopilot,Full System,S42,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+ArtifactCopilot,Full System,S43,available + functional,available + functional | available + functional | available,False,False,1,1,2,False
+ArtifactCopilot,Full System,S44,available + functional + reusable,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+ArtifactCopilot,Full System,S45,no available,available | available | available + functional,False,False,1,1,2,False
+ArtifactCopilot,Full System,S46,available + functional + reusable,available + functional | available + functional | available + functional + reusable,False,True,1,1,2,False
+ArtifactCopilot,Full System,S47,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S48,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S49,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S50,available,no available | available | available,False,True,1,1,2,False
+ArtifactCopilot,Full System,S51,available + functional,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+ArtifactCopilot,Full System,S52,available,no available | available | available,False,True,1,1,2,False
+ArtifactCopilot,Full System,S53,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S54,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+ArtifactCopilot,Full System,S55,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S56,available + functional + reusable,available + functional + reusable | available | available + functional + reusable,False,False,2,2,2,False
+ArtifactCopilot,Full System,S57,available + functional + reusable,available | available + functional + reusable | available,False,False,2,2,2,False
+ArtifactCopilot,Full System,S58,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S59,available,available | available | available,True,True,0,0,1,False
+ArtifactCopilot,Full System,S60,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S01,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S02,available + functional + reusable,available + functional | available + functional | available,False,False,1,1,2,False
+OpenHands,Skill+Rubric,S03,available + functional + reusable,available + functional + reusable | available + functional + reusable | available,False,False,2,2,2,False
+OpenHands,Skill+Rubric,S04,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S05,available + functional + reusable,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+OpenHands,Skill+Rubric,S06,available,available + functional + reusable | available | available,False,False,2,2,2,False
+OpenHands,Skill+Rubric,S07,available + functional,available | available | available + functional,False,False,1,1,2,False
+OpenHands,Skill+Rubric,S08,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S09,available + functional,available + functional + reusable | available + functional | no available,False,False,3,3,3,True
+OpenHands,Skill+Rubric,S10,available,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S11,no available,available | available | available + functional,False,False,1,1,2,False
+OpenHands,Skill+Rubric,S12,available + functional,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+OpenHands,Skill+Rubric,S13,no available,no available | no available | no available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S14,available + functional + reusable,available + functional | available + functional | available + functional,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S15,available,available + functional + reusable | available | available,False,False,2,2,2,False
+OpenHands,Skill+Rubric,S16,no available,no available | no available | no available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S17,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S18,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S19,available + functional,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S20,no available,no available | no available | no available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S21,no available,no available | no available | no available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S22,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S23,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S24,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S25,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S26,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S27,available,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S28,available + functional,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S29,available + functional + reusable,available + functional + reusable | available | available + functional,False,False,2,2,3,False
+OpenHands,Skill+Rubric,S30,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S31,available + functional,no available | available + functional | available + functional + reusable,False,False,3,3,3,True
+OpenHands,Skill+Rubric,S32,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S33,available + functional,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+OpenHands,Skill+Rubric,S34,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S35,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S36,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S37,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S38,available + functional,available | available + functional + reusable | available + functional,False,False,2,2,3,False
+OpenHands,Skill+Rubric,S39,available + functional,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S40,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S41,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S42,available + functional,available + functional | available + functional | available + functional + reusable,False,True,1,1,2,False
+OpenHands,Skill+Rubric,S43,available + functional,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+OpenHands,Skill+Rubric,S44,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S45,no available,available + functional | no available | no available,False,False,2,2,2,False
+OpenHands,Skill+Rubric,S46,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+OpenHands,Skill+Rubric,S47,available,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S48,available,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S49,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S50,available,available | available | available,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S51,available + functional,available + functional + reusable | no available | available + functional + reusable,False,False,3,3,2,True
+OpenHands,Skill+Rubric,S52,available,no available | available | available + functional,False,False,2,2,3,False
+OpenHands,Skill+Rubric,S53,available,available + functional + reusable | available | available + functional + reusable,False,False,2,2,2,False
+OpenHands,Skill+Rubric,S54,available + functional + reusable,available + functional + reusable | available + functional + reusable | no available,False,False,3,3,2,True
+OpenHands,Skill+Rubric,S55,available,available + functional + reusable | no available | available,False,False,3,3,3,True
+OpenHands,Skill+Rubric,S56,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S57,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+OpenHands,Skill+Rubric,S58,available,available + functional + reusable | available | available + functional + reusable,False,False,2,2,2,False
+OpenHands,Skill+Rubric,S59,available,available | available + functional | available,False,False,1,1,2,False
+OpenHands,Skill+Rubric,S60,available,available | available + functional | available,False,False,1,1,2,False
+Cline,Skill+Rubric,S01,available,available + functional | available + functional + reusable | available,False,False,2,2,3,False
+Cline,Skill+Rubric,S02,available + functional + reusable,available | available + functional + reusable | available,False,False,2,2,2,False
+Cline,Skill+Rubric,S03,available + functional + reusable,available + functional + reusable | available | available + functional + reusable,False,False,2,2,2,False
+Cline,Skill+Rubric,S04,available,available | available | available,True,True,0,0,1,False
+Cline,Skill+Rubric,S05,available + functional + reusable,no available | available + functional | available + functional,False,False,2,2,2,True
+Cline,Skill+Rubric,S06,available,no available | available | no available,False,True,1,1,2,True
+Cline,Skill+Rubric,S07,available + functional,available + functional + reusable | available | available,False,False,2,2,2,False
+Cline,Skill+Rubric,S08,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S09,available + functional,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S10,available,no available | no available | available,False,True,1,1,2,True
+Cline,Skill+Rubric,S11,no available,available | no available | no available,False,True,1,1,2,False
+Cline,Skill+Rubric,S12,available + functional,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+Cline,Skill+Rubric,S13,no available,no available | no available | no available,True,True,0,0,1,True
+Cline,Skill+Rubric,S14,available + functional + reusable,available | available + functional | available + functional + reusable,False,False,2,2,3,False
+Cline,Skill+Rubric,S15,available,available | available | available,True,True,0,0,1,False
+Cline,Skill+Rubric,S16,no available,no available | no available | no available,True,True,0,0,1,False
+Cline,Skill+Rubric,S17,available + functional + reusable,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+Cline,Skill+Rubric,S18,available,available + functional + reusable | available | available,False,False,2,2,2,False
+Cline,Skill+Rubric,S19,available + functional,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+Cline,Skill+Rubric,S20,no available,no available | no available | no available,True,True,0,0,1,True
+Cline,Skill+Rubric,S21,no available,no available | no available | no available,True,True,0,0,1,False
+Cline,Skill+Rubric,S22,available,available | available | available,True,True,0,0,1,False
+Cline,Skill+Rubric,S23,available + functional,available + functional | available | available + functional,False,False,1,1,2,False
+Cline,Skill+Rubric,S24,available,no available | available | available,False,True,1,1,2,False
+Cline,Skill+Rubric,S25,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S26,available + functional + reusable,available + functional + reusable | available + functional + reusable | available,False,False,2,2,2,False
+Cline,Skill+Rubric,S27,available,available + functional + reusable | available + functional | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S28,available + functional,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S29,available + functional + reusable,available + functional | available | available,False,False,1,1,2,False
+Cline,Skill+Rubric,S30,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S31,available + functional,available + functional | available | available + functional,False,False,1,1,2,False
+Cline,Skill+Rubric,S32,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S33,available + functional,available + functional | available + functional | available + functional + reusable,False,True,1,1,2,False
+Cline,Skill+Rubric,S34,available,available | available | available,True,True,0,0,1,False
+Cline,Skill+Rubric,S35,available + functional + reusable,available + functional + reusable | available + functional + reusable | no available,False,False,3,3,2,True
+Cline,Skill+Rubric,S36,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S37,available + functional + reusable,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+Cline,Skill+Rubric,S38,available + functional,available + functional + reusable | available | available,False,False,2,2,2,False
+Cline,Skill+Rubric,S39,available + functional,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S40,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S41,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S42,available + functional,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S43,available + functional,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S44,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S45,no available,no available | no available | no available,True,True,0,0,1,False
+Cline,Skill+Rubric,S46,available + functional + reusable,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+Cline,Skill+Rubric,S47,available,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+Cline,Skill+Rubric,S48,available,available + functional | available + functional + reusable | available,False,False,2,2,3,False
+Cline,Skill+Rubric,S49,available,available | available | no available,False,True,1,1,2,True
+Cline,Skill+Rubric,S50,available,available | available | available,True,True,0,0,1,False
+Cline,Skill+Rubric,S51,available + functional,no available | available | available,False,True,1,1,2,True
+Cline,Skill+Rubric,S52,available,available | available | available,True,True,0,0,1,False
+Cline,Skill+Rubric,S53,available,available + functional + reusable | no available | no available,False,False,3,3,2,True
+Cline,Skill+Rubric,S54,available + functional + reusable,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+Cline,Skill+Rubric,S55,available,available + functional + reusable | available | available,False,False,2,2,2,False
+Cline,Skill+Rubric,S56,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S57,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Cline,Skill+Rubric,S58,available,available | available | available,True,True,0,0,1,False
+Cline,Skill+Rubric,S59,available,available + functional | available + functional | available,False,False,1,1,2,False
+Cline,Skill+Rubric,S60,available,no available | no available | available,False,True,1,1,2,True
+Codex,Skill+Rubric,S01,available,available + functional | available + functional | available,False,False,1,1,2,False
+Codex,Skill+Rubric,S02,available + functional + reusable,available + functional | available + functional | available + functional + reusable,False,True,1,1,2,False
+Codex,Skill+Rubric,S03,available + functional + reusable,available + functional | available + functional | available + functional + reusable,False,True,1,1,2,False
+Codex,Skill+Rubric,S04,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S05,available + functional + reusable,available + functional + reusable | available | available + functional,False,False,2,2,3,False
+Codex,Skill+Rubric,S06,available,available + functional | available + functional | available + functional,True,True,0,0,1,False
+Codex,Skill+Rubric,S07,available + functional,available + functional | available + functional | available,False,False,1,1,2,False
+Codex,Skill+Rubric,S08,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S09,available + functional,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S10,available,available + functional | available + functional | available,False,False,1,1,2,False
+Codex,Skill+Rubric,S11,no available,available | no available | no available,False,True,1,1,2,True
+Codex,Skill+Rubric,S12,available + functional,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S13,no available,no available | no available | no available,True,True,0,0,1,False
+Codex,Skill+Rubric,S14,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S15,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S16,no available,no available | no available | no available,True,True,0,0,1,True
+Codex,Skill+Rubric,S17,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S18,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S19,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+Codex,Skill+Rubric,S20,no available,no available | no available | no available,True,True,0,0,1,False
+Codex,Skill+Rubric,S21,no available,no available | no available | no available,True,True,0,0,1,False
+Codex,Skill+Rubric,S22,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S23,available + functional,available + functional | available | available,False,False,1,1,2,False
+Codex,Skill+Rubric,S24,available,no available | no available | no available,True,True,0,0,1,False
+Codex,Skill+Rubric,S25,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S26,available + functional + reusable,available + functional + reusable | available + functional | available + functional,False,True,1,1,2,False
+Codex,Skill+Rubric,S27,available,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S28,available + functional,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+Codex,Skill+Rubric,S29,available + functional + reusable,available + functional + reusable | available + functional | available + functional,False,True,1,1,2,False
+Codex,Skill+Rubric,S30,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S31,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+Codex,Skill+Rubric,S32,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S33,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+Codex,Skill+Rubric,S34,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S35,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S36,available + functional + reusable,available + functional + reusable | available + functional + reusable | no available,False,False,3,3,2,True
+Codex,Skill+Rubric,S37,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S38,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+Codex,Skill+Rubric,S39,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+Codex,Skill+Rubric,S40,available + functional + reusable,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+Codex,Skill+Rubric,S41,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S42,available + functional,available + functional | available + functional | no available,False,False,2,2,2,True
+Codex,Skill+Rubric,S43,available + functional,available | no available | available + functional,False,False,2,2,3,True
+Codex,Skill+Rubric,S44,available + functional + reusable,available + functional | available + functional | available + functional,True,True,0,0,1,False
+Codex,Skill+Rubric,S45,no available,no available | available | available + functional,False,False,2,2,3,False
+Codex,Skill+Rubric,S46,available + functional + reusable,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+Codex,Skill+Rubric,S47,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S48,available,available + functional + reusable | available + functional + reusable | available,False,False,2,2,2,False
+Codex,Skill+Rubric,S49,available,available | no available | available,False,True,1,1,2,True
+Codex,Skill+Rubric,S50,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S51,available + functional,available | available + functional | available + functional,False,False,1,1,2,False
+Codex,Skill+Rubric,S52,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S53,available,available + functional | available + functional + reusable | available + functional + reusable,False,True,1,1,2,False
+Codex,Skill+Rubric,S54,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+Codex,Skill+Rubric,S55,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S56,available + functional + reusable,available + functional + reusable | available + functional | available + functional + reusable,False,True,1,1,2,False
+Codex,Skill+Rubric,S57,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+Codex,Skill+Rubric,S58,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S59,available,available | available | available,True,True,0,0,1,False
+Codex,Skill+Rubric,S60,available,available | available | available,True,True,0,0,1,False
+ExecutionAgent,Rubric,S01,available,no available | available | available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S02,available + functional + reusable,no available | available + functional + reusable | available + functional,False,False,3,3,3,True
+ExecutionAgent,Rubric,S03,available + functional + reusable,no available | no available | no available,True,True,0,0,1,True
+ExecutionAgent,Rubric,S04,available,available + functional | available | available + functional,False,False,1,1,2,False
+ExecutionAgent,Rubric,S05,available + functional + reusable,no available | available + functional | available,False,False,2,2,3,False
+ExecutionAgent,Rubric,S06,available,no available | available | no available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S07,available + functional,no available | available | no available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S08,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+ExecutionAgent,Rubric,S09,available + functional,no available | available | available + functional,False,False,2,2,3,True
+ExecutionAgent,Rubric,S10,available,available | no available | available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S11,no available,available | no available | no available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S12,available + functional,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+ExecutionAgent,Rubric,S13,no available,no available | no available | no available,True,True,0,0,1,False
+ExecutionAgent,Rubric,S14,available + functional + reusable,no available | no available | available + functional,False,False,2,2,2,True
+ExecutionAgent,Rubric,S15,available,available | available | available,True,True,0,0,1,False
+ExecutionAgent,Rubric,S16,no available,no available | available | available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S17,available + functional + reusable,available | available | available,True,True,0,0,1,False
+ExecutionAgent,Rubric,S18,available,available | no available | available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S19,available + functional,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+ExecutionAgent,Rubric,S20,no available,no available | no available | available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S21,no available,no available | available | available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S22,available,no available | available | available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S23,available + functional,no available | no available | available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S24,available,no available | no available | no available,True,True,0,0,1,True
+ExecutionAgent,Rubric,S25,available + functional + reusable,no available | available | no available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S26,available + functional + reusable,no available | no available | available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S27,available,no available | no available | no available,True,True,0,0,1,True
+ExecutionAgent,Rubric,S28,available + functional,available + functional | no available | no available,False,False,2,2,2,False
+ExecutionAgent,Rubric,S29,available + functional + reusable,available | available + functional | available + functional + reusable,False,False,2,2,3,False
+ExecutionAgent,Rubric,S30,available + functional + reusable,available | available + functional | no available,False,False,2,2,3,True
+ExecutionAgent,Rubric,S31,available + functional,available + functional + reusable | available + functional + reusable | available + functional,False,True,1,1,2,False
+ExecutionAgent,Rubric,S32,available + functional + reusable,available + functional + reusable | available + functional | available,False,False,2,2,3,False
+ExecutionAgent,Rubric,S33,available + functional,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+ExecutionAgent,Rubric,S34,available,available | available + functional | no available,False,False,2,2,3,False
+ExecutionAgent,Rubric,S35,available + functional + reusable,available + functional | available + functional + reusable | available,False,False,2,2,3,False
+ExecutionAgent,Rubric,S36,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+ExecutionAgent,Rubric,S37,available + functional + reusable,available + functional | available + functional + reusable | available + functional,False,True,1,1,2,False
+ExecutionAgent,Rubric,S38,available + functional,available | no available | available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S39,available + functional,no available | available | available + functional,False,False,2,2,3,True
+ExecutionAgent,Rubric,S40,available + functional + reusable,no available | available | available + functional,False,False,2,2,3,True
+ExecutionAgent,Rubric,S41,available + functional + reusable,available + functional + reusable | available + functional + reusable | available + functional + reusable,True,True,0,0,1,False
+ExecutionAgent,Rubric,S42,available + functional,available + functional | available + functional | available + functional,True,True,0,0,1,False
+ExecutionAgent,Rubric,S43,available + functional,no available | available | no available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S44,available + functional + reusable,available + functional | available | available + functional,False,False,1,1,2,False
+ExecutionAgent,Rubric,S45,no available,available | available | available + functional + reusable,False,False,2,2,2,False
+ExecutionAgent,Rubric,S46,available + functional + reusable,no available | available | available + functional,False,False,2,2,3,False
+ExecutionAgent,Rubric,S47,available,available | no available | available + functional,False,False,2,2,3,True
+ExecutionAgent,Rubric,S48,available,available + functional | no available | available + functional + reusable,False,False,3,3,3,True
+ExecutionAgent,Rubric,S49,available,no available | no available | available + functional,False,False,2,2,2,True
+ExecutionAgent,Rubric,S50,available,available + functional + reusable | no available | available + functional,False,False,3,3,3,True
+ExecutionAgent,Rubric,S51,available + functional,available | available | available,True,True,0,0,1,False
+ExecutionAgent,Rubric,S52,available,no available | no available | available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S53,available,no available | available | available + functional,False,False,2,2,3,True
+ExecutionAgent,Rubric,S54,available + functional + reusable,available + functional | available + functional | available + functional,True,True,0,0,1,False
+ExecutionAgent,Rubric,S55,available,no available | available | available,False,True,1,1,2,False
+ExecutionAgent,Rubric,S56,available + functional + reusable,available + functional + reusable | available + functional + reusable | no available,False,False,3,3,2,True
+ExecutionAgent,Rubric,S57,available + functional + reusable,available | available | available + functional + reusable,False,False,2,2,2,False
+ExecutionAgent,Rubric,S58,available,no available | no available | available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S59,available,no available | available | available,False,True,1,1,2,True
+ExecutionAgent,Rubric,S60,available,no available | available | no available,False,True,1,1,2,True

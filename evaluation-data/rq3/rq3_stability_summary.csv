@@ -1,0 +1,6 @@
+table,system,protocol,badge_acc,badge_prec,badge_rec,badge_f1,func_acc,func_prec,func_rec,func_f1,consistent_badge,all_different_badge,functional_same,failure_rate,cost_usd_per_artifact_run,source_note
+RQ3,OpenHands,Skill+Rubric,,,,,,,,,35/60,6/60,41/60,8.33%,0.043,paper-adopted stability row
+RQ3,Cline,Skill+Rubric,,,,,,,,,21/60,3/60,43/60,16.67%,0.068,paper-adopted stability row
+RQ3,Codex,Skill+Rubric,,,,,,,,,37/60,3/60,49/60,10.00%,0.044,paper-adopted stability row
+RQ3,ExecutionAgent,Rubric,,,,,,,,,12/60,15/60,37/60,45.00%,0.093,paper-adopted stability row
+RQ3,ArtifactCopilot,Full System,,,,,,,,,32/60,1/60,45/60,0.00%,0.125,paper-adopted stability row
